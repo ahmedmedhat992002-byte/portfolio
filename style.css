@@ -1,4 +1,4 @@
-/* ==============================================================================
+﻿/* ==============================================================================
    AHMED MEDHAT — HUMAN-ENGINEERED PORTFOLIO STYLES
    Linear / Vercel Minimalist Developer Aesthetic
    ============================================================================== */
@@ -323,6 +323,31 @@ body {
   background: var(--accent-gold-soft);
 }
 
+.project-tag.grad {
+  color: #38bdf8;
+  border-color: rgba(56, 189, 248, 0.3);
+  background: rgba(56, 189, 248, 0.1);
+}
+
+.project-tag.uni {
+  color: #a78bfa;
+  border-color: rgba(167, 139, 250, 0.3);
+  background: rgba(167, 139, 250, 0.1);
+}
+
+.project-tag.eco {
+  color: #34d399;
+  border-color: rgba(52, 211, 153, 0.3);
+  background: rgba(52, 211, 153, 0.1);
+}
+
+.project-tags-group {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
 .project-year {
   font-size: 0.75rem;
   color: var(--text-dim);
@@ -362,6 +387,8 @@ body {
 .platform-badge {
   font-size: 0.78rem;
   color: var(--text-dim);
+  display: block;
+  margin-top: 4px;
 }
 
 .project-description {

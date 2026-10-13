@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ahmed Medhat — Software Engineer</title>
-  <meta name="description" content="Personal portfolio of Ahmed Medhat. Full-stack web and mobile developer working with Next.js, Flutter, Supabase, Firebase, TypeScript, and C++.">
+  <meta name="description" content="Personal portfolio of Ahmed Medhat. Full-stack web and mobile developer working with Next.js, Flutter, Python, Supabase, Firebase, TypeScript, and C++.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -49,7 +49,7 @@
       </p>
 
       <p class="intro-sub">
-        My primary stack spans <strong>Next.js</strong>, <strong>TypeScript</strong>, <strong>Flutter</strong>, and cloud databases with <strong>Supabase</strong> and <strong>Firebase</strong>. I also bring strong software engineering foundations in <strong>C++</strong>, <strong>HTML5</strong>, and <strong>CSS3</strong>.
+        My primary stack spans <strong>Next.js</strong>, <strong>TypeScript</strong>, <strong>Flutter (Senior Graduation Project: WorldAssets EAM)</strong>, and cloud databases with <strong>Supabase</strong> and <strong>Firebase</strong>. I also bring strong software engineering foundations in <strong>Python</strong>, <strong>C++</strong>, <strong>HTML5</strong>, and <strong>CSS3</strong>.
       </p>
 
       <div class="intro-actions">
@@ -120,43 +120,119 @@
         </div>
       </article>
 
-      <!-- Project 2: Flutter Mobile Application -->
-      <article class="project-box">
+      <!-- Project 2: Senior Graduation Project (WorldAssets) -->
+      <article class="project-box flagship">
         <div class="project-meta">
-          <span class="project-tag">Mobile App</span>
+          <div class="project-tags-group">
+            <span class="project-tag live">Senior Graduation Project 🎓</span>
+            <span class="project-tag">Enterprise Mobile System</span>
+            <span class="project-tag">Offline-First</span>
+          </div>
           <span class="project-year mono">2026</span>
         </div>
 
         <div class="project-header">
-          <h3 class="project-title">Cross-Platform Mobile Application</h3>
-          <span class="platform-badge mono">iOS & Android</span>
+          <div>
+            <h3 class="project-title">WorldAssets — Enterprise Fixed Assets & Lifecycle Management</h3>
+            <span class="platform-badge mono">Flutter • Dart • Android & iOS • Dual-Cloud (Firebase & Supabase) • Hive</span>
+          </div>
+          <a href="https://github.com/ahmedmedhat992002-byte/fixed-assets-app" target="_blank" rel="noopener noreferrer" class="project-live-link">
+            <span>github.com/.../fixed-assets-app</span>
+            <span class="arrow-ext">↗</span>
+          </a>
         </div>
 
         <p class="project-description">
-          Engineered using Flutter and Dart. Designed with clean architecture, reactive state management, and offline-first local caching. Seamlessly consumes RESTful APIs and Firebase cloud services for real-time data persistence.
+          Senior Graduation Project: A production-ready Enterprise Asset Management (EAM) mobile platform engineered to audit, trace, and manage physical assets across their entire operational lifecycle (Procurement, Custodianship Handover, Preventive Maintenance, Financial Depreciation, and Disposal). Designed with an offline-first architecture for field engineers, automatic dual-cloud synchronization, high-speed QR auditing, real-time Agora calling, and GIS asset mapping.
         </p>
 
-        <div class="implementation-grid two-col">
+        <!-- Technical Implementation Highlights -->
+        <div class="implementation-grid">
           <div class="impl-item">
-            <span class="impl-label mono">Mobile Framework</span>
-            <p><strong>Flutter & Dart</strong>: smooth 60fps native performance, adaptive layouts, and custom widget trees.</p>
+            <span class="impl-label mono">Dual-Cloud & Offline Sync</span>
+            <p><strong>Supabase (PostgreSQL)</strong> relational audit trails + <strong>Firebase</strong> (Firestore, Auth, Storage, FCM) unified with local <strong>Hive DB</strong> for instant offline capability and automatic cloud sync.</p>
           </div>
           <div class="impl-item">
-            <span class="impl-label mono">Cloud & State</span>
-            <p><strong>Firebase & REST APIs</strong> with BLoC / Provider state architecture and offline SQLite/Hive caching.</p>
+            <span class="impl-label mono">QR Audits & GIS Mapping</span>
+            <p>High-speed camera <strong>QR & Barcode scanning</strong> for instant inventory auditing and serial verification, paired with <strong>GPS / Flutter Map</strong> to track physical assets across campuses.</p>
+          </div>
+          <div class="impl-item">
+            <span class="impl-label mono">Field Collab & Agora RTC</span>
+            <p>Real-time <strong>Agora Audio & Video calling</strong> for field maintenance technicians and managers, paired with voice notes, media attachments, and team chat.</p>
+          </div>
+          <div class="impl-item">
+            <span class="impl-label mono">Depreciation & Biometrics</span>
+            <p>Automated financial depreciation calculators exporting <strong>PDF reports, Excel (.xlsx)</strong> via Syncfusion, and CSV. Secured with <strong>Biometric Fingerprint / Face ID</strong> authentication.</p>
           </div>
         </div>
 
+        <!-- Tech Pills -->
         <div class="tech-pills">
+          <span class="pill">Graduation Project 🎓</span>
           <span class="pill">Flutter</span>
           <span class="pill">Dart</span>
           <span class="pill">Firebase</span>
-          <span class="pill">REST APIs</span>
-          <span class="pill">State Management</span>
+          <span class="pill">Supabase</span>
+          <span class="pill">Hive (Offline-First)</span>
+          <span class="pill">Agora RTC Engine</span>
+          <span class="pill">QR / Barcode Scanner</span>
+          <span class="pill">GIS & Geolocator</span>
+          <span class="pill">Syncfusion Excel & PDF</span>
+          <span class="pill">Biometric Auth</span>
+          <span class="pill">Clean Architecture</span>
+          <span class="pill">Bilingual (AR / EN)</span>
         </div>
       </article>
 
-      <!-- Project 3: NovaPay FinTech -->
+            <!-- Project 3: Smart Waste Platform (University Project) -->
+      <article class="project-box">
+        <div class="project-meta">
+          <div class="project-tags-group">
+            <span class="project-tag uni">Small University Project 🏛️</span>
+            <span class="project-tag eco">IoT & Urban Logistics</span>
+            <span class="project-tag">Full-Stack Web</span>
+          </div>
+          <span class="project-year mono">2024</span>
+        </div>
+
+        <div class="project-header">
+          <div>
+            <h3 class="project-title">Smart Waste Collection System — Urban IoT & Logistics Management</h3>
+            <span class="platform-badge mono">Node.js • Express • MongoDB • Leaflet GIS • Chart.js • IoT Smart Bins</span>
+          </div>
+        </div>
+
+        <p class="project-description">
+          A small university coursework project developed to simulate smart urban sanitation and automated waste logistics. Features an interactive administrative command center with Leaflet GIS mapping for municipal waste bins, real-time fill-level telemetry and status alerts, citizen waste reporting with image verification, driver collection dispatching, and a gamified eco-reward leaderboard.
+        </p>
+
+        <!-- Technical Implementation Highlights -->
+        <div class="implementation-grid two-col">
+          <div class="impl-item">
+            <span class="impl-label mono">Full-Stack Backend & APIs</span>
+            <p><strong>Node.js & Express</strong> RESTful API paired with <strong>MongoDB Atlas</strong>, JWT role-based authentication (Admin, Driver, Citizen), and Multer for citizen waste photo upload handling.</p>
+          </div>
+          <div class="impl-item">
+            <span class="impl-label mono">Real-Time GIS & Telemetry</span>
+            <p>Interactive <strong>Leaflet.js & MarkerCluster</strong> for municipal bin coordinates, driver route tracking, and <strong>Chart.js</strong> data visualizations for waste accumulation trends.</p>
+          </div>
+        </div>
+
+        <!-- Tech Pills -->
+        <div class="tech-pills">
+          <span class="pill">University Project 🏛️</span>
+          <span class="pill">Node.js</span>
+          <span class="pill">Express.js</span>
+          <span class="pill">MongoDB Atlas</span>
+          <span class="pill">Leaflet GIS</span>
+          <span class="pill">Chart.js</span>
+          <span class="pill">RESTful APIs</span>
+          <span class="pill">Multer</span>
+          <span class="pill">JWT Auth</span>
+        </div>
+      </article>
+
+      <!-- Project 4: NovaPay FinTech -->
       <article class="project-box">
         <div class="project-meta">
           <span class="project-tag">Web App</span>
@@ -210,9 +286,13 @@
               <span class="skill-name">PostgreSQL</span>
               <span class="skill-desc">Relational schemas, indexes, complex queries, foreign keys, and access policy tuning.</span>
             </li>
-            <li>
+                        <li>
               <span class="skill-name">Node.js & APIs</span>
               <span class="skill-desc">Server Actions, RESTful endpoints, API route handlers, and middleware logic.</span>
+            </li>
+            <li>
+              <span class="skill-name">MongoDB & NoSQL</span>
+              <span class="skill-desc">Document schemas with Mongoose ODM, indexing, aggregation pipelines, and Atlas cloud deployment.</span>
             </li>
           </ul>
         </div>
@@ -225,7 +305,11 @@
           <ul class="skill-entries">
             <li>
               <span class="skill-name">Flutter & Dart</span>
-              <span class="skill-desc">Cross-platform iOS and Android apps, clean architecture, responsive layouts, native API bridges.</span>
+              <span class="skill-desc">Enterprise mobile apps (Graduation Project: WorldAssets), offline-first caching (Hive), Agora RTC audio/video, QR scanning, GIS maps, and native bridges.</span>
+            </li>
+                        <li>
+              <span class="skill-name">Python</span>
+              <span class="skill-desc">Object-oriented programming, data structures, automation scripting, backend services, and algorithmic problem-solving with clean, idiomatic code.</span>
             </li>
             <li>
               <span class="skill-name">C++</span>
@@ -310,7 +394,7 @@
         <div class="principle-item">
           <span class="mono principle-num">02.</span>
           <h4>Zero Bloat & Fast Runtime</h4>
-          <p>Whether writing Next.js Server Components, Flutter widgets, or C++ algorithms, I prioritize lightweight architectures that keep latency under 50ms and bundle sizes lean.</p>
+          <p>Whether writing Next.js Server Components, Flutter widgets, Python scripts, or C++ algorithms, I prioritize lightweight architectures that keep latency under 50ms and bundle sizes lean.</p>
         </div>
         <div class="principle-item">
           <span class="mono principle-num">03.</span>
@@ -348,6 +432,12 @@
           <a href="https://football-academy-rho.vercel.app" target="_blank" rel="noopener noreferrer" class="contact-tile">
             <span class="mono tile-type">LIVE PROJECT</span>
             <span class="tile-val">FIFA FC ACADEMY Platform</span>
+            <span class="arrow-ext">↗</span>
+          </a>
+
+          <a href="https://github.com/ahmedmedhat992002-byte/fixed-assets-app" target="_blank" rel="noopener noreferrer" class="contact-tile">
+            <span class="mono tile-type">GRADUATION PROJECT</span>
+            <span class="tile-val">WorldAssets Source Code (GitHub)</span>
             <span class="arrow-ext">↗</span>
           </a>
         </div>
