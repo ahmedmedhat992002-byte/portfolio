@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ahmed Medhat — Software Engineer</title>
+  <meta name="description" content="Personal portfolio of Ahmed Medhat. Full-stack web and mobile developer working with Next.js, Flutter, Supabase, Firebase, TypeScript, and C++.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👨‍💻</text></svg>">
+</head>
+<body>
+
+  <!-- Subtle Top Accent Border -->
+  <div class="top-accent"></div>
+
+  <!-- Main Container -->
+  <main class="page-wrapper">
+
+    <!-- Header / Navigation -->
+    <header class="header">
+      <div class="header-left">
+        <span class="avatar-initials">AM</span>
+        <div>
+          <h1 class="header-name">Ahmed Medhat</h1>
+          <p class="header-title">Full-Stack & Mobile Software Engineer</p>
+        </div>
+      </div>
+
+      <nav class="header-nav">
+        <a href="#projects">Work</a>
+        <a href="#stack">Stack</a>
+        <a href="#about">About</a>
+        <a href="#contact" class="nav-contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- Intro / Bio -->
+    <section class="intro-section">
+      <div class="status-indicator">
+        <span class="status-dot"></span>
+        <span>Available for software engineering roles & freelance projects</span>
+      </div>
+
+      <p class="intro-lead">
+        I build production web platforms and mobile apps with clean architecture, fast interfaces, and secure backend systems.
+      </p>
+
+      <p class="intro-sub">
+        My primary stack spans <strong>Next.js</strong>, <strong>TypeScript</strong>, <strong>Flutter</strong>, and cloud databases with <strong>Supabase</strong> and <strong>Firebase</strong>. I also bring strong software engineering foundations in <strong>C++</strong>, <strong>HTML5</strong>, and <strong>CSS3</strong>.
+      </p>
+
+      <div class="intro-actions">
+        <a href="https://football-academy-rho.vercel.app" target="_blank" rel="noopener noreferrer" class="btn-primary">
+          <span>Live Demo: FIFA FC Academy</span>
+          <span class="arrow-ext">↗</span>
+        </a>
+        <a href="#contact" class="btn-secondary">
+          <span>Get in Touch</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- Featured Flagship Work -->
+    <section id="projects" class="section">
+      <div class="section-label">
+        <span class="mono">01 //</span>
+        <h2>Selected Work</h2>
+      </div>
+
+      <!-- Project 1: FIFA FC Academy -->
+      <article class="project-box flagship">
+        <div class="project-meta">
+          <span class="project-tag live">Production SaaS</span>
+          <span class="project-year mono">2026</span>
+        </div>
+
+        <div class="project-header">
+          <h3 class="project-title">FIFA FC ACADEMY — Sports Management Platform</h3>
+          <a href="https://football-academy-rho.vercel.app" target="_blank" rel="noopener noreferrer" class="project-live-link">
+            <span>football-academy-rho.vercel.app</span>
+            <span class="arrow-ext">↗</span>
+          </a>
+        </div>
+
+        <p class="project-description">
+          A multi-tenant management platform built for soccer academies. Connects administration, coaches, and parents into a single real-time dashboard. Features match tactics whiteboard, live session attendance, player evaluations, and subscription payment tracking.
+        </p>
+
+        <!-- Technical Implementation Highlights -->
+        <div class="implementation-grid">
+          <div class="impl-item">
+            <span class="impl-label mono">Backend & DB</span>
+            <p><strong>Supabase (PostgreSQL)</strong> with customized Row Level Security (RLS) policies, real-time sync, and non-recursive queries.</p>
+          </div>
+          <div class="impl-item">
+            <span class="impl-label mono">Auth & Security</span>
+            <p>Real Gmail verification, Supabase password recovery flows, Google OAuth 2.0, and coach approval governance.</p>
+          </div>
+          <div class="impl-item">
+            <span class="impl-label mono">Frontend Architecture</span>
+            <p><strong>Next.js 16</strong> App Router with Turbopack, React 19 Server Components, and zero-compromise responsive design.</p>
+          </div>
+          <div class="impl-item">
+            <span class="impl-label mono">Deployment & Edge</span>
+            <p>Automated CI/CD via Git to <strong>Vercel Global Edge CDN</strong> with sub-second page loads worldwide.</p>
+          </div>
+        </div>
+
+        <!-- Tech Pills -->
+        <div class="tech-pills">
+          <span class="pill">Next.js 16</span>
+          <span class="pill">TypeScript</span>
+          <span class="pill">Supabase</span>
+          <span class="pill">PostgreSQL</span>
+          <span class="pill">Google OAuth</span>
+          <span class="pill">Vercel</span>
+        </div>
+      </article>
+
+      <!-- Project 2: Flutter Mobile Application -->
+      <article class="project-box">
+        <div class="project-meta">
+          <span class="project-tag">Mobile App</span>
+          <span class="project-year mono">2026</span>
+        </div>
+
+        <div class="project-header">
+          <h3 class="project-title">Cross-Platform Mobile Application</h3>
+          <span class="platform-badge mono">iOS & Android</span>
+        </div>
+
+        <p class="project-description">
+          Engineered using Flutter and Dart. Designed with clean architecture, reactive state management, and offline-first local caching. Seamlessly consumes RESTful APIs and Firebase cloud services for real-time data persistence.
+        </p>
+
+        <div class="implementation-grid two-col">
+          <div class="impl-item">
+            <span class="impl-label mono">Mobile Framework</span>
+            <p><strong>Flutter & Dart</strong>: smooth 60fps native performance, adaptive layouts, and custom widget trees.</p>
+          </div>
+          <div class="impl-item">
+            <span class="impl-label mono">Cloud & State</span>
+            <p><strong>Firebase & REST APIs</strong> with BLoC / Provider state architecture and offline SQLite/Hive caching.</p>
+          </div>
+        </div>
+
+        <div class="tech-pills">
+          <span class="pill">Flutter</span>
+          <span class="pill">Dart</span>
+          <span class="pill">Firebase</span>
+          <span class="pill">REST APIs</span>
+          <span class="pill">State Management</span>
+        </div>
+      </article>
+
+      <!-- Project 3: NovaPay FinTech -->
+      <article class="project-box">
+        <div class="project-meta">
+          <span class="project-tag">Web App</span>
+          <span class="project-year mono">2025</span>
+        </div>
+
+        <div class="project-header">
+          <h3 class="project-title">NovaPay — Billing & Transactions Hub</h3>
+        </div>
+
+        <p class="project-description">
+          A financial dashboard for recurring customer subscriptions, automated invoicing, transaction auditing, and analytics tracking with modular REST endpoints.
+        </p>
+
+        <div class="tech-pills">
+          <span class="pill">React</span>
+          <span class="pill">Node.js</span>
+          <span class="pill">PostgreSQL</span>
+          <span class="pill">REST APIs</span>
+        </div>
+      </article>
+    </section>
+
+    <!-- Technical Stack & Skills -->
+    <section id="stack" class="section">
+      <div class="section-label">
+        <span class="mono">02 //</span>
+        <h2>Skills & Technologies</h2>
+      </div>
+
+      <p class="section-intro">
+        The technologies and tools I work with daily to design, code, and deploy production software:
+      </p>
+
+      <div class="stack-grid">
+        <!-- Card 1: Cloud Databases & Backend -->
+        <div class="stack-card">
+          <div class="stack-card-header">
+            <span class="mono category-title">Backend & Cloud Databases</span>
+          </div>
+          <ul class="skill-entries">
+            <li>
+              <span class="skill-name">Supabase</span>
+              <span class="skill-desc">Managed PostgreSQL, Row Level Security (RLS), Supabase Auth, real-time listeners, SQL migrations.</span>
+            </li>
+            <li>
+              <span class="skill-name">Firebase</span>
+              <span class="skill-desc">Cloud Firestore database design, Firebase Auth, Cloud Storage, and offline persistence.</span>
+            </li>
+            <li>
+              <span class="skill-name">PostgreSQL</span>
+              <span class="skill-desc">Relational schemas, indexes, complex queries, foreign keys, and access policy tuning.</span>
+            </li>
+            <li>
+              <span class="skill-name">Node.js & APIs</span>
+              <span class="skill-desc">Server Actions, RESTful endpoints, API route handlers, and middleware logic.</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Card 2: Mobile & Core Programming -->
+        <div class="stack-card">
+          <div class="stack-card-header">
+            <span class="mono category-title">Mobile & Systems Programming</span>
+          </div>
+          <ul class="skill-entries">
+            <li>
+              <span class="skill-name">Flutter & Dart</span>
+              <span class="skill-desc">Cross-platform iOS and Android apps, clean architecture, responsive layouts, native API bridges.</span>
+            </li>
+            <li>
+              <span class="skill-name">C++</span>
+              <span class="skill-desc">Object-Oriented Programming (OOP), pointers, memory management, and data structures.</span>
+            </li>
+            <li>
+              <span class="skill-name">Algorithms & Problem Solving</span>
+              <span class="skill-desc">Computational complexity (Big-O), search/sort algorithms, and optimized logic.</span>
+            </li>
+            <li>
+              <span class="skill-name">State Management</span>
+              <span class="skill-desc">Reactive patterns with BLoC, Provider, Riverpod, and React state hooks.</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Card 3: Web & Frontend -->
+        <div class="stack-card">
+          <div class="stack-card-header">
+            <span class="mono category-title">Frontend & Web Core</span>
+          </div>
+          <ul class="skill-entries">
+            <li>
+              <span class="skill-name">HTML5</span>
+              <span class="skill-desc">Semantic document outline, web accessibility (a11y), clean DOM structure, and SEO standards.</span>
+            </li>
+            <li>
+              <span class="skill-name">CSS3</span>
+              <span class="skill-desc">Modern Flexbox, Grid, custom properties, responsive media queries, and performant animations.</span>
+            </li>
+            <li>
+              <span class="skill-name">Next.js 16</span>
+              <span class="skill-desc">App Router architecture, React Server Components (RSC), Turbopack, and SSR/ISR pipelines.</span>
+            </li>
+            <li>
+              <span class="skill-name">TypeScript</span>
+              <span class="skill-desc">Strict typing, interfaces, type inference, and scalable codebase maintainability.</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Card 4: DevOps & Tooling -->
+        <div class="stack-card">
+          <div class="stack-card-header">
+            <span class="mono category-title">DevOps & Tooling</span>
+          </div>
+          <ul class="skill-entries">
+            <li>
+              <span class="skill-name">Git & GitHub</span>
+              <span class="skill-desc">Modular version control, branch management, merge reviews, and clean commit history.</span>
+            </li>
+            <li>
+              <span class="skill-name">Vercel</span>
+              <span class="skill-desc">Production deployments, edge network distribution, environment secrets, and custom domains.</span>
+            </li>
+            <li>
+              <span class="skill-name">Google Cloud Console</span>
+              <span class="skill-desc">OAuth 2.0 client configurations, authorized redirect URIs, and cloud credentials.</span>
+            </li>
+            <li>
+              <span class="skill-name">Performance Optimization</span>
+              <span class="skill-desc">Lighthouse auditing, minimal bundle sizes, image optimization, and fast Core Web Vitals.</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Engineering Principles / About -->
+    <section id="about" class="section">
+      <div class="section-label">
+        <span class="mono">03 //</span>
+        <h2>Engineering Principles</h2>
+      </div>
+
+      <div class="principles-grid">
+        <div class="principle-item">
+          <span class="mono principle-num">01.</span>
+          <h4>Data Integrity & Security First</h4>
+          <p>I design relational schemas with strict constraints and Row-Level Security (RLS) from day one. Security is baked into the database layer, not left as an afterthought.</p>
+        </div>
+        <div class="principle-item">
+          <span class="mono principle-num">02.</span>
+          <h4>Zero Bloat & Fast Runtime</h4>
+          <p>Whether writing Next.js Server Components, Flutter widgets, or C++ algorithms, I prioritize lightweight architectures that keep latency under 50ms and bundle sizes lean.</p>
+        </div>
+        <div class="principle-item">
+          <span class="mono principle-num">03.</span>
+          <h4>Human-Crafted Quality</h4>
+          <p>I value clean code, thoughtful typography, and intuitive user experiences. Every component is built with deliberate structure and long-term maintainability.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+      <div class="section-label">
+        <span class="mono">04 //</span>
+        <h2>Get in Touch</h2>
+      </div>
+
+      <div class="contact-box">
+        <p class="contact-prompt">
+          Have an engineering project, a SaaS idea, or looking for a full-stack engineer? Feel free to reach out directly:
+        </p>
+
+        <div class="contact-links-grid">
+          <a href="mailto:ahmedmedhat992002@gmail.com" class="contact-tile">
+            <span class="mono tile-type">EMAIL</span>
+            <span class="tile-val">ahmedmedhat992002@gmail.com</span>
+            <span class="arrow-ext">↗</span>
+          </a>
+
+          <a href="https://wa.me/201012345678" target="_blank" rel="noopener noreferrer" class="contact-tile">
+            <span class="mono tile-type">WHATSAPP</span>
+            <span class="tile-val">Chat on WhatsApp</span>
+            <span class="arrow-ext">↗</span>
+          </a>
+
+          <a href="https://football-academy-rho.vercel.app" target="_blank" rel="noopener noreferrer" class="contact-tile">
+            <span class="mono tile-type">LIVE PROJECT</span>
+            <span class="tile-val">FIFA FC ACADEMY Platform</span>
+            <span class="arrow-ext">↗</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p class="footer-text mono">
+        Designed & coded by Ahmed Medhat © 2026. Built with HTML5, CSS3, and JavaScript.
+      </p>
+      <a href="#" class="back-to-top mono">Back to top ↑</a>
+    </footer>
+
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
